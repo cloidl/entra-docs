@@ -45,6 +45,8 @@ The evaluation of the activity timestamp is triggered by an authentication attem
 
 If the delta between the existing value of the activity timestamp and the current value is more than 14 days (+/-5 day variance), the existing value is replaced with the new value.
 
+Warning: The activity timestamp could be out of date for an active server device if no users log in to the device.
+
 ## How do I get the activity timestamp?
 
 You have two options to retrieve the value of the activity timestamp:
